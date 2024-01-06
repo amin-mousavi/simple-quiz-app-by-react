@@ -49,7 +49,8 @@ header h1 {
   margin: 0;
   text-transform: uppercase;
   background: linear-gradient(90deg, #e781fb 40%, #8e76fa 60%);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -174,19 +175,19 @@ header h1 {
 
 .answer button.selected {
   /* background: linear-gradient(180deg, #fbda81 0%, #f8b173 100%); */
-  background: #f5a76c;
+  background: #ff7104;
   color: #2c203d;
 }
 
 .answer button.correct {
   /* background: linear-gradient(180deg, #a1fa61 0%, #52d482 100%); */
-  background: #5af59d;
+  background: #1eee41;
   color: #2c203d;
 }
 
 .answer button.wrong {
   /* background: linear-gradient(180deg, #f96fb1 0%, #f52b8c 100%); */
-  background: #f55a98;
+  background: #e7252e;
   color: #2c203d;
 }
 
